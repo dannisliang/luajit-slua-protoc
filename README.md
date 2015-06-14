@@ -1,6 +1,12 @@
 # luajit-slua-protoc
 luajit-slua-protoc make to android and ios
 
+本项目用于将luajit2.1 + slua + protoc 编译android和ios动态库。
+其中：
+liajit项目地址 http://repo.or.cz/w/luajit-2.0.git
+slua项目地址 https://github.com/pangweiwei/slua
+protoc项目地址 https://github.com/sean-lin/protoc-gen-lua
+
 本项目是基于mac平台做的，win下和linux下只能编译android的so文件。而且win下需要重新写批处理程序，因为win下运行不了shell。
 
 更改配置：编译安卓so文件需要用到ndk，所以你需要在批处理文件中修改你的ndk路径，编译ios也一样，需要将你的xcode路径替换掉。
